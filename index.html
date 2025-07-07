@@ -4,39 +4,57 @@
   <title>Crash Detector V2 GEN 2</title>
   <style>
     body {
-      background-color: #121212;
+      background: url('https://images.unsplash.com/photo-1593642634371-8b12e02d091c?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: #fff;
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
       padding: 50px;
     }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      border-radius: 15px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(255, 64, 129, 0.4);
+    }
     h1 {
       color: #ff4081;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
-    .box {
-      background: #1e1e1e;
-      padding: 20px;
-      margin: auto;
-      border-radius: 10px;
-      width: 60%;
-      box-shadow: 0 0 15px rgba(255, 64, 129, 0.4);
+    .status {
+      margin: 20px 0;
+      font-size: 1.1rem;
+      color: #90ee90;
     }
-    a {
-      color: #64b5f6;
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #ff4081;
+      color: white;
+      border-radius: 8px;
       text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
     }
-    a:hover {
-      text-decoration: underline;
+    a.button:hover {
+      background-color: #e91e63;
     }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="overlay">
     <h1>🔥 Crash Detector V2 GEN 2</h1>
     <p>Bot backend berhasil diupload ke GitHub.</p>
-    <p><strong>Untuk menjalankan:</strong> gunakan Node.js secara lokal atau deploy ke server seperti Railway.</p>
-    <p>📦 Repo: <a href="https://github.com/AthaBhadrika/-ENC-CRASH-DETECTOR-V2-GEN-2" target="_blank">Klik di sini</a></p>
+    <div class="status">
+      ✅ Status Bot: <strong>ONLINE</strong><br>
+      ⚡ Status AI: <strong>TERHUBUNG</strong><br>
+      🧠 Mode: <strong>Atha si paling RTZ</strong>
+    </div>
+    <a class="button" href="https://github.com/AthaBhadrika/-ENC-CRASH-DETECTOR-V2-GEN-2/archive/refs/heads/main.zip" target="_blank">⬇️ Download ZIP</a>
   </div>
 </body>
 </html>
-
